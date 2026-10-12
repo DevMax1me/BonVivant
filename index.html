@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spectre — explorer ses traits autistiques</title>
+  <meta name="description" content="Questionnaire d'exploration des traits autistiques en 48 questions, inspiré du DSM-5-TR, de l'AQ et du CAT-Q. Anonyme, gratuit, sans collecte de données.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <span class="brand" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28" focusable="false"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 4a12 12 0 0 1 0 24" fill="currentColor" opacity=".25"/><path d="M5 16h22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        Spectre
+      </span>
+      <span class="tag">Outil d'exploration · pas un diagnostic</span>
+    </div>
+  </header>
+
+  <div class="progress-wrap" id="progressWrap" hidden>
+    <div class="wrap">
+      <div class="progress" role="progressbar" aria-label="Progression du questionnaire" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p class="progress-label" id="progressLabel"></p>
+    </div>
+  </div>
+
+  <main id="main" class="wrap" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Vos réponses restent dans votre navigateur : rien n'est envoyé ni enregistré sur un serveur.</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
